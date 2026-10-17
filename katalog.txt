@@ -1,0 +1,6 @@
+MJ-002 - Info Teknologi Edisi 87 (2026) | Edisi 87 (Juli) | Rak: rak B-04 (Lantai 2) | Layak: true
+BK-001 - Java How to Program (2022) | 620 hal | Rak: rak A-12 (Lantai 1) | Layak: true
+BD-002 - Jurnal Rekayasa Perangkat (2025) | 8 MB | Link: unduh.polmed.ac.id/bd002 | Layak: true
+BD-001 - Panduan Pemrograman Java (2024) | 15 MB | Link: unduh.polmed.ac.id/bd001 | Layak: true
+BK-002 - Basis Data Relasional (2021) | 410 hal | Rak: rak B-04 (Lantai 1) | Layak: false
+MJ-001 - Info Teknologi Edisi 88 (2026) | Edisi 88 (Agustus) | Rak: rak B-04 (Lantai 2) | Layak: false

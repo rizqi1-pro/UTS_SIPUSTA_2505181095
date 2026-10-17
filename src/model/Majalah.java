@@ -1,0 +1,32 @@
+package model;
+
+public class Majalah extends Koleksi implements Terarsip {
+    private int edisi;
+    private String bulanTerbit;
+    private String rak;
+    private boolean edisiTerbaru;
+
+    public Majalah(String kode, String judul, int tahun, int edisi, String bulanTerbit, String rak, boolean edisiTerbaru) {
+        super(kode, judul, tahun);
+        this.edisi = edisi;
+        this.bulanTerbit = bulanTerbit;
+        this.rak = rak;
+        this.edisiTerbaru = edisiTerbaru;
+    }
+
+    @Override
+    public boolean layakDipinjam() {
+        return !edisiTerbaru;
+    }
+
+    @Override
+    public String nomorRak() { return rak; }
+
+    @Override
+    public int lokasiLantai() { return 2; }
+
+    @Override
+    public String deskripsi() {
+        return super.deskripsi() + " | Edisi " + edisi + " (" + bulanTerbit + ") | " + ringkasanArsip() + " | Layak: " + layakDipinjam();
+    }
+}
